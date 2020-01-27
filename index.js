@@ -1,4 +1,20 @@
 //JavaScript
+
+function onReady() {
+  var navHamburger = document.querySelector(".nav__hamburger");
+  var navMenu = document.querySelector(".nav-menu");
+  var navMenuCross = document.querySelector(".nav-menu__cross");
+  var navMenuListItems = document.querySelectorAll(".nav-menu__list-item");
+  var navMenuSeparator = document.querySelector(".nav-menu__separator");
+  var navMenuText = document.querySelector(".nav-menu__text");
+  var navMenuEmail = document.querySelector(".nav-menu__email");
+  var navMenuSocialBtn = document.querySelector(".nav-menu__social-btn");
+  var skillsBtn = document.querySelector(".about-me__skills__btn");
+  var readMoreArray = "";
+  navMenu.inert = true;
+}
+  
+  
 var image = null;
 
 function loadimage(){
