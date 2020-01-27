@@ -1,7 +1,6 @@
 //JavaScript
 
 function onReady() {
-
   var navMenu = document.querySelector(".nav-menu");
   var navMenuCross = document.querySelector(".nav-menu-cross");
   var navMenuListItems = document.querySelectorAll(".nav-menu-list-item");
@@ -25,6 +24,10 @@ function loadimage(){
 }
 
 function GrayScale(){
+  if(image == null || !image.complete()){
+    alert ("Image not loaded");
+    return;
+  }  
   for (var pixel of image.values()){
 var avg = (pixel.getRed()+pixel.getGreen()+pixel.getBlue())/3;
     pixel.setRed(avg);
@@ -36,7 +39,11 @@ var avg = (pixel.getRed()+pixel.getGreen()+pixel.getBlue())/3;
 }
 
 function Red(){
- for (var pixel of image.values()) {
+    if(image == null || !image.complete()){
+    alert ("Image not loaded");
+    return;
+  }
+  for (var pixel of image.values()) {
  var avg=(pixel.getGreen()+pixel.getRed()+pixel.getBlue())/3;
     if (avg < 128) {
       pixel.setRed(2*avg);
@@ -53,6 +60,10 @@ function Red(){
 }
 
 function Green(){
+    if(image == null || !image.complete()){
+    alert ("Image not loaded");
+    return;
+  }
   for (var pixel of image.values()){
     var avg=(pixel.getGreen() + pixel.getRed() + pixel.getBlue())/3;
     if (avg < 128) {
@@ -69,6 +80,10 @@ function Green(){
   image.drawTo(canvas);
 }
 function Blue(){
+    if(image == null || !image.complete()){
+    alert ("Image not loaded");
+    return;
+  }  
   for (var pixel of image.values()){
     var avg=(pixel.getGreen()+pixel.getRed()+pixel.getBlue())/3;
     if (avg < 128) {
@@ -84,9 +99,6 @@ function Blue(){
   }
   image.drawTo(canvas);
 }
-
-function Rainbow(){  }
-function Unicorn(){}
 
 function BlurFilter(){
     var max = 5;
@@ -105,18 +117,12 @@ function BlurFilter(){
   }
   image.drawTo(canvas);
 }
-  
-  
- // image.drawTo(canvas);
 
 function alienFilter(){
 
 for(var pixel of image.values()){
-
 var tmpRed = pixel.getRed();
-
 pixel.setRed(pixel.getBlue());
-
 pixel.setBlue(tmpRed);
 }
  var alien = document.getElementById("canvas");
@@ -137,6 +143,9 @@ function Invert(){
     frame = document.getElementById("canvas");
     image.drawTo(frame);
   }
+
+function Rainbow(){}
+function Unicorn(){}
 
 function ResetFilter(){
    if(image == null || !image.complete()){
