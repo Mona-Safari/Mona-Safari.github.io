@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
+<html lang="en">
+  <main>
+  <div>
+    <title>Mona Safari | Front End Developer Portfolio</title>
+     </div>
+
+    <body>
+<!--header menu-->    
+<div class="header-container">
+	<div class="header-bar">
+		<ul class="slider-menu">
+			<li>Home</li>
+			<li>About</li>
+			<li>Portfolio</li>
+			<li>Photo Gallery</li>
+		</ul>
+	</div>
+</div>
+	  </body>
+
+<!-- filtered photos of me-->  
+  <head>
   <meta charset="UTF-8">
   <title>CodePen - Image Filters</title>
   <link rel="stylesheet" href="./style.css">
@@ -47,6 +68,126 @@
        value = "Reset Filter"
        onclick = "ResetFilter()">
   </p></div>
+  
+  <!-- Header -->
+  <header id="header" class="header">
+    <h1 class="header">Mona Safari</h1>
+    <h3 class="header-subtitle">Front-End Developer</h3>
+    <div class="header-mouse-container">
+      <img class="header-mouse" src="" alt="">
+      <img class="header-mouse-roll" src="" alt="">
+    </div>
+  </header>
+
+  <!-- About Section -->
+    <section id="about" class="about">
+      <h1 class="about-title">Get to know me<span class="about-title-dot"></span></h1>
+      <div class="about-info-container">
+        <div class="about-text">
+          <img src="" srcset=" 800w/>
+          <p class="about__text__description">Hello, my name is Mona. I am a Front-End Developer located in San Francisco.</p>
+          <p class="about__text__description">I design websites using HTML, CSS and JavaScript.</p>   
+          <a href="" class="header-btn">View portfolio</a>        
+    </div>
+    </section>
+
+ <!-- connect to social media -->
+     <div class="nav-menu-social-btn">
+      <a href="https://twitter.com/" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+      <a href="https://codepen.io/mona_safari/" target="_blank"><span class="fa fa-codepen fa-2x"></span></a>
+      <a href="https://github.com/Mona-Safari/" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+      <a href="https://youtube.com/" target="_blank"><span class="fa fa-youtube fa-2x"></span></a>
+      <a href="https://www.linkedin.com/in/mona-safari/" target="_blank"><span class="fa fa-linkedin-square fa-2x">
+        </span></a>
+    </div>    
+
+<!-- Footer -->
+    <footer class="footer">
+      <div class="footer-info-container">
+        <h2 class="footer__copyright">&copy; Mona Safari 2020</h2>
+        <!-- footer navigation -->
+        <ul class="footer-menu-list">
+          <li class="footer-menu-list-item">
+            <a href="#about" class="footer-menu-link">About</a>
+          </li>
+          <li class="footer-menu-list-item">
+            <a href="#portfolio" class="footer-menu-link">Portfolio</a>
+          </li>
+          <li class="footer-menu-list-item">
+            <a href="#contact" class="footer-menu-link">Contact</a>
+          </li>
+        </ul>
+        <!-- footer social buttons -->
+        <div class="footer-social-btn">
+         <a href="https://twitter.com/" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+      <a href="https://codepen.io/mona_safari/" target="_blank"><span class="fa fa-codepen fa-2x"></span></a>
+      <a href="https://github.com/Mona-Safari/" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+      <a href="https://youtube.com/" target="_blank"><span class="fa fa-youtube fa-2x"></span></a>
+      <a href="https://www.linkedin.com/in/mona-safari/" target="_blank"><span class="fa fa-linkedin-square fa-2x">
+        </span></a>
+      </div>
+    </footer>
+
+   <style>
+   html, body{
+      height: 50% 
+      width: 100%;													  
+      margin: 0;
+      background: linear-gradient(to bottom, #f34, #725);
+}
+.header.container {
+        height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-bar {
+	position: relative;
+	width: 50%;
+	min-width: 300px;
+	height: 50px;
+	border: 10px solid transparent;
+	border-top: 10px solid #fffa;
+	border-left: 10px solid #fffa;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25) inset;
+}
+.header-bar::after {
+	content: '';
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 60%;
+	height: 49px;
+	border: 10px solid transparent;
+	border-bottom: 10px solid #fffa;
+	border-right: 10px solid #fffa;
+	transition: 0.3s linear all;
+}
+.slider-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+.slider-menu > li {
+	display: inline-flex;
+	padding: 14px;
+	margin-left: 2px;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s linear all;
+	user-select: none;
+}
+.slider-menu > li:hover {
+	color: #faa;
+	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+      </style>
  
 
 
