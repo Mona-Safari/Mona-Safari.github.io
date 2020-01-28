@@ -1,14 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color:  #ff789e;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
 
 /* Titles */
 .about-title,
