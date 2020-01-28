@@ -1,23 +1,5 @@
 //JavaScript
 
-.click(function(){
-		open_window('http://www.facebook.com/');
-	});
-
-.click(function(){
-		open_window('https://plus.google.com/');
-	});
-
-.click(function(){
-		open_window('https://www.linkedin.com/');
-	});
-
-function open_window(url, name){
-         window.open(url, name, 'height=320, width=640, toolbar=no, menubar=no, scrollbars=yes, resizable=yes, location=no, directories=no, status=no');
-	}
-});
-  
-  
 //image filter
 var image = null;
 
