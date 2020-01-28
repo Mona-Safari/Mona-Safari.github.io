@@ -1,18 +1,27 @@
 //JavaScript
 
-function onReady() {
-  var navMenu = document.querySelector(".nav-menu");
-  var navMenuCross = document.querySelector(".nav-menu-cross");
-  var navMenuListItems = document.querySelectorAll(".nav-menu-list-item");
-  var navMenuSeparator = document.querySelector(".nav-menu-separator");
-  var navMenuText = document.querySelector(".nav-menu-text");
-  var navMenuEmail = document.querySelector(".nav-menu-email");
-  var navMenuSocialBtn = document.querySelector(".nav-menu-social-btn");
-  var skillsBtn = document.querySelector(".about-me-skills-btn");
-  var readMoreArray = "";
-  navMenu.inert = true;
-}
+$('.share-fb').click(function(){
+		open_window('http://www.facebook.com/, 'facebook_share');
+	});
 
+	$('.share-twitter').click(function(){
+		open_window('http://twitter.com/, 'twitter_share');
+	});
+
+	$('.share-google-plus').click(function(){
+		open_window('https://plus.google.com/, 'google_share');
+	});
+
+	$('.share-linkedin').click(function(){
+		open_window('https://www.linkedin.com/', 'linkedin_share');
+	});
+
+	function open_window(url, name){
+		window.open(url, name, 'height=320, width=640, toolbar=no, menubar=no, scrollbars=yes, resizable=yes, location=no, directories=no, status=no');
+	}
+});
+  
+  
 //image filter
 var image = null;
 
