@@ -6,8 +6,8 @@
      </div>
   
     <body>
-    
-<div class="container">
+<!--header menu-->    
+<div class="header-container">
 	<div class="header-bar">
 		<ul class="slider-menu">
 			<li>Home</li>
@@ -17,7 +17,47 @@
 		</ul>
 	</div>
 </div>
-	       
+	  </body>
+	  
+<!-- filtered photos of me-->
+<head>
+  <meta charset="utf-8">
+  <title>Instagram Filters</title>
+
+<body>
+
+  <div class="filter-container">
+    <div class="grid">
+      <div class="grid__item">
+        <img src="https://photographybychalice.com/wp-content/uploads/2015/06/photo-1468242218924-27d5aa058a89.jpg">
+      </div>
+      
+      <div class="grid__item">
+        <img class="_1977" src="https://photographybychalice.com/wp-content/uploads/2015/06/photo-1468242218924-27d5aa058a89.jpg">
+      </div>
+      
+      <div class="grid__item">
+        <img class="moon" src="https://photographybychalice.com/wp-content/uploads/2015/06/photo-1468242218924-27d5aa058a89.jpg">
+      </div>
+      
+      <div class="grid__item">
+        <img class="aden" src="https://photographybychalice.com/wp-content/uploads/2015/06/photo-1468242218924-27d5aa058a89.jpg">
+      </div>
+      
+      <div class="grid__item">
+        <img class="walden" src="https://photographybychalice.com/wp-content/uploads/2015/06/photo-1468242218924-27d5aa058a89.jpg">
+      </div>
+      
+      <div class="grid__item">
+        <img class="maven" src="https://photographybychalice.com/wp-content/uploads/2015/06/photo-1468242218924-27d5aa058a89.jpg">
+      </div>
+            
+    </div>
+  </div>
+ 
+</body>
+
+	    
   <!-- Header -->
   <header id="header" class="header">
     <h1 class="header">Mona Safari</h1>
@@ -84,7 +124,7 @@
       margin: 0;
       background: linear-gradient(to bottom, #f34, #725);
 }
-.container {
+.header.container {
         height: 100%;
 	display: flex;
 	align-items: center;
@@ -137,7 +177,27 @@
 	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
 }
       </style>
-</body>
+														  
+<style>
+.filter-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,500px);
+  grid-template-rows: repeat(3,500px, 300px);
+  grid-gap: 30px 30px;
+}
+
+img {
+  width: 100%;
+}
+ </style>														  
+</body>													  
 </main>                                                                                                           
 </html>
                                                                                                                   
