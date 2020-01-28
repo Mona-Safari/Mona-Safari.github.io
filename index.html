@@ -98,48 +98,16 @@
       <div class="footer-info-container">
         <h2 class="footer-copyright">&copy; Mona Safari 2020</h2>
  
-<!-- Buttons -->
-<div class="share-buttons-row">
-	<!--Facebook's Button -->
-	<div class="share-fb"></div>
-	<!--Twitter's Button -->
-	<div class="share-twitter"></div>
-	<!--Facebook's Button -->
-	<div class="share-google-plus"></div>
-	<!--Linkedin's Button -->
-	<div class="share-linkedin"></div>
-	<!--Pinterest's Button -->
-	<div class="share-pinterest"></div>
-	<!--Tumblr's Button -->
-	<div class="share-tumblr"></div>
-</div>
-				 
-<!-- Footer Elements -->
-  <div class="footer-container">
-			
-    <!-- Social buttons -->		       
-    <ul class="list-unstyled list-inline text-center">
-<li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/mona-safari/">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-        </li>
-<li class="list-inline-item">
-        <a class="btn-floating btn-GH mx-1" href="https://github.com/Mona-Safari/">
-          <i class="fab fa-GitHub-GH"> </i>
-        </a>
-        </li>
-<li class="list-inline-item">
-        <a class="btn-floating btn-CP mx-1" href="https://codepen.io/mona_safari/">
-          <i class="fab fa-CodePen-CP"> </i>
-        </a>
-      </li>
-<li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1" href="mailto:mona.safari@gmail.com">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-</ul>            	
+    <!-- Social buttons -->
+.support
+	a(href = 'https://github.com/Mona-Safari/' target='_blank')
+		i(class = 'fab fa-github')    
+	a(href = 'https://www.linkedin.com/in/mona-safari/' target='_blank')
+		i(class = 'fab fa-linkedin')
+        a(href = 'https://codepen.io/mona_safari/' target='_blank')
+		i(class = 'fab fa-codepen')
+        a(href = 'mailto:mona.safari@gmail.com' target='_blank')
+		i(class = 'fab fa-google-plus-g')
   </div>
 </footer>
 
@@ -201,6 +169,24 @@
 	color: #faa;
 	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
 }
+.support{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	padding: 10px;
+	display: flex;
+	a{
+		margin: 0 10px;
+		color: #fff;
+		font-size: 1.8rem;
+		transition: all 200ms ease;
+		&:hover{
+	        color: rgba(200, 200, 200, 0.85)
+		}
+	}
+
+}
+				    
       </style>
  
 
