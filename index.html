@@ -6,89 +6,8 @@
   <meta charset="UTF-8">
     <title>Mona Safari | Front End Developer Portfolio</title>
 	<link rel="stylesheet" href="./Style.css">
-	
-   <style>
-<!-- Menu Bar style-->												    
-   html, body{
-      height: 100%; 
-      width:80%;
-      margin: 10;
-      background: linear-gradient(to bottom, #f34, #725);
-}
-.header.container {
-        height: 100%;											    
-	display: flex;
-	align-items: right;
-	justify-content: right;
-}
-.header-bar {
-	position: relative;
-	width: 50%;
-	min-width: 300px;
-	height: 50px;
-	border: 10px solid transparent;
-	border-top: 10px solid #fffa;
-	border-left: 10px solid #fffa;
-	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25) inset;
-}
-.header-bar::after {
-	content: '';
-	position: absolute;
-	top: -10px;
-	right: -10px;
-	width: 60%;
-	height: 49px;
-	border: 10px solid transparent;
-	border-bottom: 10px solid #fffa;
-	border-right: 10px solid #fffa;
-	transition: 0.3s linear all;
-}
-.slider-menu {
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: flex;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	z-index: 1;
-}
-.slider-menu > li {
-	display: inline-flex;
-	padding: 14px;
-	margin-left: 2px;
-	font-family: 'Quicksand', sans-serif;
-	color: #fff;
-	cursor: pointer;
-	transition: 0.3s linear all;
-	user-select: none;
-}
-.slider-menu > li:hover {
-	color: #faa;
-	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
-}
-												    
-<!-- social media icons-->
-.support{
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-	padding: 10px;
-	display: flex;
-}
-        a{
-		margin: 0 20px;
-		color: #fff;
-		text-decoration:none;
-		transition: all 400ms ease;
-	}
-	a:hover{
-	        color: rgba(200, 200, 200, 0.85)
-		}
-				    
-      </style>
- 
 </head>
+	
 <body>
   <main>
 	
@@ -96,41 +15,38 @@
 <div class="header-container">
 	<div class="header-bar">
 		<ul class="slider-menu">
-			<li>Home</li>			
-			<li><a href="#about" target="_blank">About</a></li>
-			<li>Portfolio</li>
-			<li>Photo Gallery</li>
+			
+			<li><a href="#Home" target="_blank">Home</a></li>		<!--Home Section-->	
+			<li><a href="#about" target="_blank">About</a></li>     <!--About Section-->
+			<li><a href="#Portfolio" target="_blank">Portfolio</a></li>   <!--portfolio Section-->                                      
+			<li><a href="#photo gallery" target="_blank">Photo Gallery</a></li>  <!--Photo Gallery Section-->
 		</ul>
 	</div>
 </div>
     
 
-<!-- Header -->
+<!-- Home Page -->
 	  <div>
-  <header id="header" class="header">
+  <header id="Home" class="header">
     <h1 class="header">Mona Safari</h1>
     <h3 class="header-subtitle">Front-End Developer</h3>
     </div>
   </header>
 
-  <!-- About Section -->
-
+  <!-- About Page -->
 	<div>
     <section id="about" class="about">
       <h1 class="about-title">Get to know me<span class="about-title-dot"></span></h1>
           <p>Hello, my name is Mona. I am a Front-End Developer located in San Francisco.</p>
           <p>I design websites using HTML, CSS and JavaScript.</p>          
-    </div>
     </section>
-	  </body>
-<!-- filtered photos of me-->  
-
+	</div>  
 	  
-<body>
-<!-- partial:index.partial.html -->
-<html>
+<!-- Portfolio Page -->
+<!-- filtered photos of me-->  
+	  <div>
+<section id="portfolio" class="Portfolio">	  
   <canvas id = "canvas" > </canvas>
-
   <p>
   <input type = file
          id = "image"
@@ -166,14 +82,22 @@
 <p><input type = button
        value = "Reset Filter"
        onclick = "ResetFilter()">
-  </p></div>
-	  </body>
-					     
+	</p></section></div>
+
+	  <!--Photo Gallery Page-->
+<div>
+	<section id="photo gallery" class="photo gallery">
+	</section>
+</div>
+	  
+	  
+	  
 <!-- Footer-->
 <footer>
     <div class="footer">
       <h2 class="footer-copyright">&copy; Mona Safari 2020</h2> </div>
  </footer>    
+	
 	<!-- Social buttons -->
 <div class="support">
 	<a href = "https://github.com/Mona-Safari/" target="_blank">
@@ -185,10 +109,6 @@
         <a href = "mailto:mona.safari@gmail.com" target="_blank">
 								   <i class = "fab fa-google-plus-g"> </i></a>
   </div>
-  </div>
-</div>	  
-</div>
-
 
 
 
@@ -615,6 +535,7 @@ var __SimpleImageUtilities = (function () {
         }
     };
               })(); </script>
+</body>
 </html>
 <!-- partial -->
   <script  src="./script.js"></script>
