@@ -2,13 +2,13 @@
 /*-- Menu Bar style--*/												    
    body{
       height: 100vh; 
-      width:80%;
-      margin: 10;
+      width:100%;
       background: linear-gradient(to bottom, #f34, #725);
-      overflow: hidden;
       display: flex;
-      align-items: center;
       font-family: sans-serif;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
 }
 .header.container {
         height: 100%;											    
@@ -71,17 +71,16 @@
 	bottom: 10px;
 	padding: 10px;
 	display: flex;
-}
         a{
 		margin: 0 20px;
 		color: #fff;
 		text-decoration:none;
 		transition: all 400ms ease;
-	}
-	a:hover{
+	&:hover{
 	        color: #222;
 		}
-
+	}
+}
 
 	/*--Canvas*/			    
 .canvas {
