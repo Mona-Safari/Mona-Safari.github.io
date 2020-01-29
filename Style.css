@@ -1,6 +1,6 @@
 
 /*-- Menu Bar style--*/												    
-   body{
+  html, body{
       height: 100vh; 
       width:100%;
       background: linear-gradient(to bottom, #f34, #725);
@@ -77,7 +77,7 @@
                 border-radius:4px;
                 text-align:center;
                 text-decoration:none;
-                font-family:fontawesome;
+                font-family:sans-serif;
 		transition: all 400ms ease;
 }
 	a:hover{
@@ -94,7 +94,7 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #DB6E82;
 }
 .github:hover {
     background-color: #5a32a3;
@@ -106,7 +106,7 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #DB6E82;
 }
 .linkedin:hover {
     background-color: #0073a4;
@@ -116,6 +116,6 @@
 .canvas {
   width : 300px;
   height :300px;
-  border: solid brown;
-  background-color:lightblue;
+  border: solid #450117;
+  background-color:#f092b1;
 }
