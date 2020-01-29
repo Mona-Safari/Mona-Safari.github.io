@@ -68,8 +68,8 @@
 	right: 10px;
 	bottom: 10px;
 	padding: 10px;
-	display: block;
-}
+	display: block; 
+	
         a{
 		color: #fff;
 		margin: 0 10px;
@@ -79,10 +79,12 @@
                 text-decoration:none;
                 font-family:sans-serif;
 		transition: all 400ms ease;
-}
-	a:hover{
+		
+	&:hover{
 	        background: #ef92a3;
 		}
+	}
+}
 .social-icon a{
                 color:#fff;
                 text-decoration: none;
