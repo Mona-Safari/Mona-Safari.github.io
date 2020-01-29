@@ -100,6 +100,7 @@
 .github:hover {
     background-color: #5a32a3;
 }	
+
 .linkedin {
     padding:10px 14px;
     -o-transition:.5s;
@@ -112,6 +113,32 @@
 .linkedin:hover {
     background-color: #0073a4;
 }
+
+.codepen {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #DB6E82;
+}
+.codepen:hover{
+    background-color: #000;
+}
+
+.google+ {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #DB6E82;}
+.google+:hover {
+	background-color: #e64522;
+}
+
 
 /*--Canvas*/			    
 .canvas {
