@@ -95,7 +95,6 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #DB6E82;
 }
 .github:hover {
     background-color: #5a32a3;
@@ -108,7 +107,6 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #DB6E82;
 }
 .linkedin:hover {
     background-color: #0073a4;
@@ -121,7 +119,6 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #DB6E82;
 }
 .codepen:hover{
     background-color: #000;
@@ -134,7 +131,7 @@
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #DB6E82;}
+   }
 .google+:hover {
 	background-color: #e64522;
 }
