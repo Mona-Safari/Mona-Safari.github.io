@@ -71,6 +71,8 @@ footer {
     color: #FFF;
     background: #3D020C;
     -webkit-font-smoothing: antialiased;
+    font-size:12px;
+    text-align:center;
 }
 a {
     text-decoration: none;
@@ -162,9 +164,4 @@ ul.social-icons {
   height :300px;
   border: solid #450117;
   background-color:#f092b1;
-}
-
-.h2{
-	font-size:12px;
-	text-align:center;
 }
