@@ -124,7 +124,7 @@
     background-color: #000;
 }
 
-.google+ {
+.google-plus {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -132,7 +132,7 @@
     -webkit-transition:.5s;
     transition: .5s;
    }
-.google+:hover {
+.google-plus:hover {
 	background-color: #e64522;
 }
 
@@ -143,4 +143,9 @@
   height :300px;
   border: solid #450117;
   background-color:#f092b1;
+}
+
+.h2{
+	font-size:12px;
+	text-align:center;
 }
