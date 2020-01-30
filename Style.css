@@ -51,7 +51,7 @@
 	display: inline-flex;
 	padding: 14px;
 	margin-left: 2px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: sans-serif;
 	color: #fff;
 	cursor: pointer;
 	transition: 0.3s linear all;
