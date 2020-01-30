@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-    <title>Mona Safari | Front-End Developer Portfolio</title>
+    <title>Mona Safari | Front End Developer Portfolio</title>
 	<link rel="stylesheet" href="./Style.css">
 </head>
 	
@@ -27,46 +27,51 @@
 </div>
 
 <!-- Portfolio Page -->
-<!-- filtered photos of me-->  
-	  <div>
-<section id="portfolio" class="Portfolio">	  
+        
+	   <!--project1-->
+	<!-- Image Filter-->  
+<div>
+<section id="portfolio" class="Portfolio">
+	
   <canvas id = "canvas"> </canvas>
-  
-<input type = file
+  <p>
+  <input type = file
          id = "image"
          multiple = false
          accept = "image/*"
-         onchange = "loadimage()">
-<input type = "button"
-       value = "Grayscale Filter"
-       onclick = "GrayScale()">
-<input type = button
-       value = "Red Filter"
-       onclick = "Red()">
-<input type = button
-       value = "Green Filter"
-         onclick = "Green()">
-<input type = button
-       value = "Blue Filter"
-           onclick = "Blue()">
+         onchange = "loadimage()"></p>
+<p><input type = "button"
+       value = "Gray Me"
+          onclick = "GrayScale()"></p>
+<p><input type = button
+       value = "Red Me"
+          onclick = "Red()"></p><p>
+  <input type = button
+       value = "Green Me"
+         onclick = "Green()"></p><p>
+    <input type = button
+       value = "Blue Me"
+           onclick = "Blue()"></p><p>
 <input type = button
        value = "Rainbow Filter"
-       onclick = "Rainbow()">
-<input type = button
+       onclick = "Rainbow()"></p><p>
+  <input type = button
        class = "blur"
-         value = "Blur Filter"
-         onclick = "BlurFilter()">
-<input type = button
-       value = "Alien Filter"
-       onclick = "alienFilter()"> 
-<input type = button
+         value = "Blur Me"
+         onclick = "BlurFilter()"></p><p>
+ <input type = button
+       value = "Alien"
+        onclick = "alienFilter()"> </p>
+  <input type = button
        value = "Invert Filter"
        onclick = "Invert()">
-<input type = button
-       value = "Reset Filter"
+    </p><p>
+<p><input type = button
+       value = "Reset"
        onclick = "ResetFilter()">
-  </section>
-  </div>
+  </p>
+</div>
+ 
   
   <script> //Copyright 2015 Owen Astrachan, Drew Hilton, Susan Rodger, Robert Duvall
 //
