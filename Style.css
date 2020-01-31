@@ -1,7 +1,7 @@
 
 /*-- Menu Bar style--*/												    
   html, body{
-      height: 100vh; 
+      height: 100; 
       width:100%;
       background: linear-gradient(to bottom, #f34, #725);
       font-family: sans-serif;
@@ -68,7 +68,6 @@
 footer {
     font-family: sans-serif;
     color: #FFF;
-    background: #3D020C;
     -webkit-font-smoothing: antialiased;
     font-size:12px;
     text-align:center;
