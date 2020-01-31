@@ -75,7 +75,7 @@ function Rainbow(){}
 
 function BlurFilter(){
     var max = 5;
-  for (var pixel of blurimage.values()){
+  for (var pixel of image.values()){
     var x = pixel.getX();
     var y = pixel.getY();
     var tempX = -1;
