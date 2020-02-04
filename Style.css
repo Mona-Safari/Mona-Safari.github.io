@@ -8,19 +8,24 @@
       justify-content: center;
       align-items: center;
 }
-h1,h2{
+h1{
 	color:#fff;
 	font-weight: bold;
 }
-.fa-movedown{ .                              /*--cursor--*/
-	color: #FF6363;
-    bottom: 10px;
-    margin-left: -30px;
-    cursor: pointer;
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: 1.2s ease;
-  }
+h2{
+	
+}
+h3{
+	
+}
+.Home{
+}
+.About{
+}
+.Portfolio{
+}
+.PhotoGallery{
+}
 
 .header.container {
         height: 100%;											    
@@ -50,7 +55,7 @@ h1,h2{
 	border-right: 10px solid #fffa;
 	transition: 0.3s linear all;
 }
-.slider-menu {
+.bar-menu {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -60,7 +65,7 @@ h1,h2{
 	padding: 0;
 	z-index: 1;
 }
-.slider-menu > li {
+.bar-menu > li {
 	display: inline-flex;
 	padding: 14px;
 	margin-left: 2px;
@@ -70,7 +75,7 @@ h1,h2{
 	transition: 0.3s linear all;
 	user-select: none;
 }
-.slider-menu > li:hover {
+.bar-menu > li:hover {
 	color: #faa;
 	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
 }
@@ -169,12 +174,4 @@ ul.social-icons {
 }
 .fa-google-plus:hover {
     background-color: #5a32a3;
-}
-
-/*--Canvas*/			    
-.canvas {
-  width : 300px;
-  height :300px;
-  border: solid #450117;
-  background-color:#f092b1;
 }
