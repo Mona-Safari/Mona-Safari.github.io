@@ -1,0 +1,25 @@
+.canvas {
+  border: solid brown;
+  background-color:lightblue;
+  height: 250px;
+  width:250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  position: relative;
+}  
+.input{
+  font-size: 10pt;
+  text-align: center;
+   color: Black;
+   border-radius: 15px;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);   
+  padding: 4px 10px;
+  width: 150px;
+}
+.body{
+  background-image: url(https://i.pinimg.com/originals/b6/58/e1/b658e1bea5ae667dba809589a31570cd.jpg);
+  background-size:200%;
+}
