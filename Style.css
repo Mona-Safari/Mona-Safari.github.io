@@ -65,11 +65,15 @@ h3{
 	padding: 0;
 	z-index: 1;
 }
+
+/*--Menu sections*/
 .nav-container{
     text-decoration: none;
     color: #fff;
   margin: 1% 1% 10;
+	 text-decoration: none;
 }
+
 .bar-menu > li {
 	display: inline-flex;
 	padding: 14px;
