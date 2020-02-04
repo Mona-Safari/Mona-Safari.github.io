@@ -1,4 +1,4 @@
-.canvas {
+canvas {
   border: solid brown;
   background-color:lightblue;
   height: 250px;
@@ -10,7 +10,7 @@
   margin: 50px auto;
   position: relative;
 }  
-.input{
+input{
   font-size: 10pt;
   text-align: center;
    color: Black;
