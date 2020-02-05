@@ -107,9 +107,9 @@ ul {
     list-style: none;
 }
 .contact-social-icons {
-    width: 350px;
+    line-height:4; 
+    width: 10px;
     display:block;
-    margin: 0 auto;
 }
 .social-icon {
     color: #fff;
@@ -128,49 +128,49 @@ ul.social-icons {
 }
 
 .fa-linkedin {
-    padding:10px 14px;
+    padding:13px 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
+    transition: .1s;
+    background: linear-gradient(to left, #100152,#0a41af, #5cb0d8);
 }
 .fa-linkedin:hover {
-    background-color: #007bb6;
+    background: #007bb6;
 }
 .fa-github {
-    padding:10px 14px;
+    padding:13px 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
+    transition: .1s;
+    background: linear-gradient(to left, #1f012f,#732373, #ea8cdb);
 }
 .fa-github:hover {
-    background-color: #800080;
+    background: #800080;
 }
 .fa-codepen {
-    padding:10px 14px;
+    padding:13px 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
+    transition: .1s;
+    background:linear-gradient(to left, #020202,#7d2a46, #907878);
 }
 .fa-codepen:hover {
-    background-color: #191919;
+    background: #000000;
 }
 .fa-google-plus {
-    padding:10px 14px;
+    padding:13px 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
+    transition: .1s;
+    background:linear-gradient(to left, #f00,#F33a00,#ffa503);
 }
 .fa-google-plus:hover {
-    background-color: #d4472a;
+    background: #d4472a;
