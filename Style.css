@@ -8,14 +8,19 @@
       align-items: center;
 }
 h1{
-	color:#ffffff;
+	color:#000;
 	font-weight: bold;
 	font-family: ;
 }
 h2{
-        color:#ffffff;
+        color:#000;
 	font-weight: bold;
 	font-family: ;	
+}
+h3{
+        font-size:;
+	font-family:;
+	color:;
 }
 
 .header.container {
