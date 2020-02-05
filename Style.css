@@ -4,27 +4,18 @@
       height: 100vh; 
       width:97%;
       background: linear-gradient(to bottom, #f34, #725);
-      font-family: sans-serif;
       justify-content: center;
       align-items: center;
 }
 h1{
-	color:#fff;
+	color:#ffffff;
 	font-weight: bold;
+	font-family: ;
 }
 h2{
-	
-}
-h3{
-	
-}
-.Home{
-}
-.About{
-}
-.Portfolio{
-}
-.PhotoGallery{
+        color:#ffffff;
+	font-weight: bold;
+	font-family: ;	
 }
 
 .header.container {
