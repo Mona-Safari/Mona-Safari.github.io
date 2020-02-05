@@ -1,0 +1,13 @@
+body{
+background-color:#260303;
+}
+.clock{
+  position:absolute;
+  color:#F949D6;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size:70px;
+  font-family:Comic Sans, Comic Sans MS, cursive;
+  letter-spacing:5px;
+}
