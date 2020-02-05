@@ -65,7 +65,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #007bb6;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
@@ -80,7 +80,7 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-github:hover {
-    background-color: #5a32a3;
+    background-color: #800080;
 }
 .fa-codepen {
     padding:10px 14px;
@@ -92,7 +92,7 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-codepen:hover {
-    background-color: #5a32a3;
+    background-color: #191919;
 }
 .fa-google-plus {
     padding:10px 14px;
@@ -104,5 +104,5 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-google-plus:hover {
-    background-color: #5a32a3;
+    background-color: #d4472a;
 }
