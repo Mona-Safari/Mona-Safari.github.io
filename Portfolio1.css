@@ -23,14 +23,14 @@ body{
   background-size:200%;
 }
 
-<!--footer sm icons-->
+/*--footer sm icons--*/
 footer {
     font-family: sans-serif;
     color: #FFF;
     -webkit-font-smoothing: antialiased;
     font-size:12px;
     text-align:center;
-  background:#555;
+    background:#555;
 }
 
 ul {
