@@ -1,0 +1,120 @@
+body {
+  background: #fcc;
+  margin: 0;
+  padding:0;
+  display: flex;
+
+}
+h1{
+   padding:1rem;
+   font-family: cursive;
+   font-size: 5rem;
+   letter-spacing: 0.15rem;
+   color: #bd2222;
+  }
+
+  h2{
+   padding: 1rem;
+  margin-left:0px;
+   font-family: cursive;
+   font-size: 5rem;
+   letter-spacing: 0.15rem;
+   color: #bd2222;
+}
+
+.heart{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  height:100px;
+  display:flex;
+  aligned-items: center;
+}
+.obj{
+    width: 6px ;
+    height:40px ;
+    background: white ;
+    margin: 0 3px;
+    border-radius: 10px ;
+  animation:heart 0.9s infinite;
+}
+
+.obj:nth-child(1), .obj:nth-child(9){
+  background-color: red;
+  animation: obj-2 3s infinite;
+  animation-delay:0s;
+}
+.obj:nth-child(2), .obj:nth-child(8) {
+  background-color: orange;
+  animation: obj-2 3s infinite;
+  animation-delay: 0.15s;
+}
+
+.obj:nth-child(3), .obj:nth-child(7) {
+  background-color:yellow;
+  animation: obj-3 3s infinite;
+  animation-delay: 0.30s;
+}
+
+.obj:nth-child(4), .obj:nth-child(6) {
+  background-color:purple;
+  animation: obj-4 3s infinite;
+  animation-delay: 0.45s;
+}
+
+.obj:nth-child(5) {
+  background-color:green;
+  animation: obj-5 3s infinite;
+  animation-delay: 0.60s;
+}
+
+@keyframes obj-5{
+  0%, 10%, 90%, 100%{
+    height:10px;
+    top:-5px;
+  }
+  45%, 55%{
+    height:98px;
+    top:-23px;
+  }
+}
+@keyframes obj-2{
+   0%, 10%, 90%, 100% { 
+     height: 10px;
+     top: -5px;
+  }
+  45%, 55% {
+    height: 60px;
+    top: -31px;
+  } 
+}
+@keyframes obj-3{
+   0%, 10%, 90%, 100% {
+     height: 10px;
+     top: -5px; }
+  45%, 55% {
+    height: 80px;
+    top: -37px; 
+}
+}
+@keyframes obj-4{
+   0%, 10%, 90%, 100% {
+     height: 10px;
+     top: -5px;
+  }
+  45%, 55% {
+    height: 90px;
+    top: -31px;
+}
+}
+@keyframes obj-1{
+    0%, 10%, 90%, 100% {
+      height: 10px;
+      top: -5px;
+  }
+  45%, 55% {
+    height: 30px;
+    top: -15px
+}
+  }
