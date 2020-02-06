@@ -1,7 +1,6 @@
 
 /*-- Menu Bar style--*/												    
   html, body{
-      height: 100vh; 
       width:97%;
       background: linear-gradient(to bottom, #f34, #725);
       justify-content: center;
