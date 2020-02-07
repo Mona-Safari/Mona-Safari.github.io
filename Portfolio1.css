@@ -1,7 +1,7 @@
 canvas {
   border:3px solid #c2d7f3;
-  height: 400px;
-  width:400px;
+  height: 450px;
+  width:450px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,22 +12,25 @@ canvas {
 input{
    font-size: 10pt;
    text-align: center;
-   color: #040404;
-   
+   color: #fff;
    border-radius: 20px;
-   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);   
+   background:#736767;
+   text-shadow: 0 2px 5px #d04195;   
    padding: 5px 20px;
 }
 
 body{
-  background-image: url("https://images.wallpaperscraft.com/image/mask_hands_blur_121194_800x1420.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp2324743.jpg");
   background-repeat: no-repeat;
+}
+p{
+  color:#fff;
 }
 
 /*--footer sm icons--*/
 footer {
     font-family: sans-serif;
-    color: #FFF;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
     font-size:12px;
     text-align:center;
