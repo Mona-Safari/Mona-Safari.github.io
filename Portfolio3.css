@@ -1,22 +1,22 @@
 body {
-  background-image: url("");
-  background-repeat: no-repeat;}
-
+  background-image: url("https://wallpaperscute.com/wp-content/uploads/2018/02/Pink-Flower-Wallpaper-Animated.jpg");
+  background-repeat: no-repeat;
+}
 h1{
   font-family: sans-serif;
-  font-size:10pt;
-  color:#fff;
+  font-size:bold 10pt;
+  color:#000;
   text-align:center;
 }
 
 .quoteDisplay{
   font-family: sans-serif;
   font-size:10pt;
-  color:#fff;
+  font-color:#000;
   text-align:center;}
 
 p{
-color:#fff;
+color:#000;
 }
 
 /*--footer sm icons--*/
