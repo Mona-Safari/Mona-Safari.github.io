@@ -1,12 +1,22 @@
 body {
+  background-image: url("");
+  background-repeat: no-repeat;}
 
+h1{
+  font-family: sans-serif;
+  font-size:10pt;
+  color:#fff;
+  text-align:center;
 }
 
-h{
-}
+.quoteDisplay{
+  font-family: sans-serif;
+  font-size:10pt;
+  color:#fff;
+  text-align:center;}
 
 p{
-  color:#fff;
+color:#fff;
 }
 
 /*--footer sm icons--*/
