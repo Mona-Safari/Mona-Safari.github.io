@@ -3,6 +3,7 @@ var quotes =['Take it easy — but take it. ~Woody Guthrie',
                    'Listen to silence, it has so much to say. ~Rumi',
                    'Build your own dreams, or someone else will hire you to build theirs. ~Farraj Gray',
                    'It is not the strongest of the species that survives, nor the most intelligent. It is the one that is most adaptable. ~Charles Darwin'
+                   'You cannot receive from others what you are not willing to give yourself. ~Christine Arylo'
              ];
 
 function newQuote(){
