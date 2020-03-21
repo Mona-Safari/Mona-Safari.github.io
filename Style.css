@@ -39,7 +39,7 @@ float: right;
 }
 .header-bar {
   position: relative;
-  width: 100%;
+  width: auto;
   height: 50px;
   border: 10px solid transparent;
   border-top: 10px solid #fffa;
