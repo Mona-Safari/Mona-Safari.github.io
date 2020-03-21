@@ -108,20 +108,21 @@ footer {
 }
 
 .contact-social-icons {
-  line-height:4; 
-  width: 10px;
-  display:block;
+  height: 10px; 
+  width: 400px;
+  display: block;
+  margin: 0 auto;
 }
 .social-icon {
   color: #fff;
 }
 ul.social-icons {
-  margin-top: 10px;
+  margin: 100px 0 20px 0;
 }
 .social-icons li {
   vertical-align: top;
   display: inline;
-  
+  height: 100px; 
 }
 .social-icons a {
   color: #fff;
@@ -129,7 +130,7 @@ ul.social-icons {
 }
 
 .fa-linkedin {
-  padding:13px 30px;
+  padding:10px 14px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -141,7 +142,7 @@ ul.social-icons {
   background: #007bb6;
 }
 .fa-github {
-  padding:13px 30px;
+  padding:10px 14px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -153,7 +154,7 @@ ul.social-icons {
   background: #800080;
 }
 .fa-codepen {
-  padding:13px 30px;
+  padding:10px 14px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -165,7 +166,7 @@ ul.social-icons {
   background: #000000;
 }
 .fa-google-plus {
-  padding:13px 30px;
+  padding:10px 14px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
