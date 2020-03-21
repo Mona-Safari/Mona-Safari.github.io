@@ -106,6 +106,9 @@ footer {
   font-size:12px;
   text-align:center;
 }
+p2{
+color:#fff;        /*--footer print--*/
+}
 
 .contact-social-icons {
   height: 10px; 
